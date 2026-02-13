@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #020617, #020c1b);
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 16px 24px;
+  background: linear-gradient(90deg, #020617, #020c1b);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar input,
+.navbar select {
+  background: #0f172a;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.navbar input {
+  flex: 1;
+}
+
+.cart-btn {
+  background: #1e40af;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cart-btn span {
+  background: #2563eb;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 6px;
+}
+
+/* Main */
+.container {
+  padding: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Products Grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+/* Card */
+.card {
+  background: linear-gradient(180deg, #0f172a, #020617);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.card-top {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background: linear-gradient(135deg, #1e3a8a, #134e4a);
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-body h4 {
+  margin-bottom: 6px;
+}
+
+.card-body p {
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #020617;
+  border: 1px solid #1e293b;
+}
+
+.add-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #1e3a8a;
+  color: white;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #2563eb;
+}

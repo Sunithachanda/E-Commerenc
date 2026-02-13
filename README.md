@@ -22,6 +22,7 @@ Some features are under development and may change as the project evolves.
 
 ## Project Structure
 E-Commerce/
+
 │── index.html
 
 │── style.css
